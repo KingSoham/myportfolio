@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#services" >Services</a>
+            <a href="#portfolio" >Projects</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+
+        <div class="bx bx-moon"  id="darkmode-icon">
+        </div>
+        <div class="bx bx-menu" id="menubar"></div>
+    </header>
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Pratham Singh</h1>
+            <p>I am a 3<sup>rd</sup> Year B.tech(CSE) student from <br />Shri Shankaracharya Technical Campus Bhilai.
+                <br />
+                Also I am a Fresher in Frontend Developement.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/prathamBoss868" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/KingSoham" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxl-sketch'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:4;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Videographer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        
+    </section>
+    <hr>
+    <!-- About section Design  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="pratham.jpg" alt="Photo">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here to Help In Your Next Project !</h3>
+            <!-- <p>I'm here to help in your Next Project ! </p>
+            <ul class="bulllet">
+                <li><a href="">SSTC</a></li>
+                <li>Crrently, I am Frontend Developer</li>
+                <li></li>
+            </ul>
+            <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <!-- Service section design  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box box1">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Developement</h3>
+                <p>Web developers are responsible for creating websites that are not only visually appealing but highly
+                    functional and secure. While the exact skills you need may vary depending on your company's
+                    requirements, you are required to possess some basic skills to become a web developer.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxl-sketch"></i>
+                <h3>Graphics Designer</h3>
+                <p>Graphic designers are responsible for creating appealing advertising materials for their clients.
+                    They use numerous skills that allow them to brainstorm ideas, create designs and collaborate with
+                    other professionals.
+                </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio section design  -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="project1.PNG" alt="photo">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <h3>Portfolio</h3>
+                    <p>Recently I upload my first portfolio website on my Github.I provide the link below.Please
+                        go visit and make awesome projects with me.
+                    </p>
+                    <a href="https://github.com/KingSoham/project" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project2.PNG" alt="photo">
+
+                <div class="portfolio-layer layer2">
+                    <h4>Web Design</h4>
+                    <h3>Login Page</h3>
+                    <p>I also upload a second project that is a login page but it is underconstruction &#128516
+                       Please go visit, download and design it best and send me.
+                    </p>
+                    <a href="https://github.com/KingSoham/project2" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+        <!-- Contact Section  -->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name" name="name">
+                <input type="email" placeholder="Enter Email" id="email" name="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Number" id="name" name="name">
+                <input type="text" placeholder="Email Subject" id="emailsub" name="emailsub">
+            </div>
+            <textarea name="messsage" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
+            <button value="Send Message" class="btn">Send Message</button>
+        </form>    
+        </section>
+
+         <!-- Footer design  -->
+         <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Pratham Singh | All Right reserved &#8482;</p>
+            </div>
+
+            <div class="icon-Top">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+         </footer>
+    <!-- Scroll revel JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
